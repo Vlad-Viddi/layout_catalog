@@ -42,14 +42,18 @@
               justify-content: flex-start; }
       .cards .rating .rating__stars .rating__stars--active {
         background-image: url(../images/star-active.svg);
+        width: 15px;
+        height: 15px;
         margin-right: 4px;
         background-repeat: no-repeat;
         background-position: center; }
-      .cards .rating .rating__stars .rating__stars--deactive {
+      .cards .rating .rating__stars .rating__stars--grey {
         background-image: url(../images/star.svg);
         margin-right: 4px;
         background-repeat: no-repeat;
-        background-position: center; }
+        background-position: center;
+        width: 15px;
+        height: 15px; }
     .cards .rating .rating__feedbacks {
       font-size: 11px;
       line-height: 13px; }
@@ -69,7 +73,8 @@
     .cards .price-section .price-section__right {
       font-weight: bold;
       font-size: 16px;
-      line-height: 19px; }
+      line-height: 19px;
+      padding-top: 21px; }
   .cards .card__btn {
     display: -webkit-box;
     display: -ms-flexbox;
