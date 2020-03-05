@@ -15,7 +15,17 @@
   .cards .card__logo {
     display: block;
     width: 160px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    border: 3px solid transparent;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s; }
+    .cards .card__logo:hover {
+      -webkit-transform: scale(1.2) translate(0, -15px);
+              transform: scale(1.2) translate(0, -15px);
+      border: 3px solid #f3f3f3;
+      border-radius: 5px; }
   .cards .card__description {
     font-weight: 500;
     font-size: 12px;
