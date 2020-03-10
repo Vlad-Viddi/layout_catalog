@@ -67,6 +67,13 @@
     .cards .rating .rating__feedbacks {
       font-size: 11px;
       line-height: 13px; }
+      .cards .rating .rating__feedbacks .rating__link {
+        text-decoration: none;
+        color: black;
+        -webkit-transition: color 300ms;
+        transition: color 300ms; }
+        .cards .rating .rating__feedbacks .rating__link:hover {
+          color: #00acdc; }
   .cards .price-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -98,17 +105,19 @@
     width: 170px;
     height: 40px;
     margin-top: 20px;
-    background: #00acdc;
+    background-color: #00acdc;
     border-radius: 5px;
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    -webkit-transition: color 300ms, background-color 300ms;
+    transition: color 300ms, background-color 300ms; }
     .cards .card__btn .card__btn--buy {
       font-weight: bold;
       font-size: 14px;
       line-height: 16px;
       text-transform: uppercase; }
     .cards .card__btn:hover {
-      background: #fff;
+      background-color: #fff;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       border: 1px solid #00acdc;

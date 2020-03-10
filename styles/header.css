@@ -30,7 +30,9 @@
       color: black;
       font-weight: 500;
       font-size: 12px;
-      position: relative; }
+      position: relative;
+      -webkit-transition: color 300ms;
+      transition: color 300ms; }
       .container-header .navbar .navbar__list .navbar__item .navbar__link:hover {
         color: #00acdc; }
     .container-header .navbar .navbar__list .navbar__item .is-active {
