@@ -71,6 +71,18 @@
 
     .rating__feedbacks {
       @include small-font;
+
+      .rating__link {
+        text-decoration: none;
+        color: black;
+        transition: color 300ms;
+
+        &:hover {
+          color: $main-blue-color;
+        }
+      }
+
+     
     }
   }
 
@@ -98,20 +110,22 @@
     width: 170px;
     height: 40px;
     margin-top: 20px;
-    background: $main-blue-color;
+    background-color: $main-blue-color;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
+    transition: color 300ms, background-color 300ms;
 
     .card__btn--buy {
       font-weight: bold;
       font-size: 14px;
       line-height: 16px;
       text-transform: uppercase;
+  
     }
 
     &:hover {
-      background: #fff;
+      background-color: #fff;
       box-sizing: border-box;
       border: 1px solid $main-blue-color;
       border-radius: 5px;
